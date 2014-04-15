@@ -1,0 +1,95 @@
+﻿/* Begin formatting container*/
+
+#container {    
+         background: gold;    
+         padding: 20px;    
+         margin: 0 auto;    
+         width: 1200px;
+         border: 7px solid black;
+}
+                               
+/* Begin header formatting*/
+
+#header {   
+    background: white;   
+    padding: 10px;   
+    margin: 0 auto;   
+    border: 7px solid black;   
+    text-align: center;
+
+}
+
+h1 {    
+    text-align: center;    
+    color: black;    
+    font-size: 28pt;
+
+}
+
+h4 {    
+    text-align: center;    
+    color: black;
+
+}
+
+h2 {    
+    text-align: center;    
+    font-size: 24pt;    
+    padding-top: 10px;
+
+}
+
+/* End header formatting*/
+
+/* Begin side bar and sitemap formatting*/
+
+#leftsidebar { 
+    background-color: white;   
+    float: left;   
+    width: 150px;    
+    height: 602px;    
+    border-left: 7px solid black;    
+    border-right: 7px solid black;
+
+}
+
+#Menu1 {     
+    padding-left: 7px;             
+    padding-top: 5px;    
+    font-weight: bold;    
+    font-size: 20px;
+
+}
+
+/* End side bar and sitemap formatting*/
+
+/* Begin main content formatting*/
+
+#main {    
+    background: white;    
+    padding: 10px;    
+    margin: 0 auto;    
+    border-right: 7px solid black;    
+    float: right;    
+    width: 900px;    
+    height: 582px;    
+    width: 1000px;
+    border-left: 9px solid white;
+}
+
+/* End main content formatting*/
+
+/*Begin footer formatting*/
+
+#footer {        
+    background: white;        
+    color: black;                
+    padding: 5px;       
+    text-align: center;        
+    font-size: 16pt;    
+    border: 7px solid black;
+    width: 1000px;   
+}
+
+/*End footer formatting*/ 
+
