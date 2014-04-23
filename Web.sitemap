@@ -10,6 +10,8 @@
 
     <siteMapNode url="~/materials.aspx" title="Search Materials"  description="" />
 
+      <siteMapNode url="~/hours.aspx" title="Hours"  description="" />
+
       <siteMapNode url="" title="Librarian"  description="" >
 
         <siteMapNode url="~/Librarian/checkout.aspx" title="Check Out"  description="" />
