@@ -4,7 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <h2> Home Page </h2>
+    <div id="home">
 
+        <br />
+        <br />
+
+        <div id="mainimg"><img src="./Images/iowacity.png" alt="city" title="city" height="350" width="450" /></div>
+
+        <p> Please browse our materials and ask a librarian about becoming a member! </p>
+
+    </div>
 </asp:Content>
 

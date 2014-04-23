@@ -1,28 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="" title="."  description="">
-        
-      <siteMapNode url="~/Default.aspx" title="Home"  description="" />
 
-      <siteMapNode url="~/aboutus.aspx" title="About Us"  description="" />
+    <siteMapNode url="~/Default.aspx" title="Home"  description="" />
 
-      <siteMapNode url="~/contact.aspx" title="Contact Us"  description="" />
+    <siteMapNode url="~/aboutus.aspx" title="About Us"  description="" />
 
-      <siteMapNode url="~/materials.aspx" title="Search Materials"  description="" />
+    <siteMapNode url="~/contact.aspx" title="Contact Us"  description="" />
 
-      <siteMapNode url="" title="Librarian"  description="" />
+    <siteMapNode url="~/materials.aspx" title="Search Materials"  description="" />
 
-      <siteMapNode url="~/Librarian/checkout.aspx" title="Check Out"  description="" />
+      <siteMapNode url="" title="Librarian"  description="" >
 
-      <siteMapNode url="~/Librarian/checkin.aspx" title="Check In"  description="" />
+        <siteMapNode url="~/Librarian/checkout.aspx" title="Check Out"  description="" />
 
-      <siteMapNode url="~/Librarian/addmaterials.aspx" title="Add Material"  description="" />
+        <siteMapNode url="~/Librarian/checkin.aspx" title="Check In"  description="" />
 
-      <siteMapNode url="~/Librarian/editmaterials.aspx" title="Edit Material"  description="" />
+        <siteMapNode url="~/Librarian/addmaterials.aspx" title="Add Material"  description="" />
 
-      <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Patron"  description="" />
+        <siteMapNode url="~/Librarian/editmaterials.aspx" title="Edit Material"  description=""/>
 
-      <siteMapNode url="~/Librarian/editpatron.aspx" title="Edit Patron"  description="" />
+        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Patron"  description="" />
+
+        <siteMapNode url="~/Librarian/editpatron.aspx" title="Edit Patron"  description="" />
+      
+      </siteMapNode>
       
     </siteMapNode>
-</siteMap>
+</siteMap> 

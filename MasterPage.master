@@ -52,11 +52,12 @@
                              
                   
                 
-            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical" StaticDisplayLevels="2">
                 
                 <LevelMenuItemStyles>    
                                                             
-                    <asp:MenuItemStyle CssClass="level1"/>                    
+                    <asp:MenuItemStyle CssClass="level1"/>
+                    <asp:MenuItemStyle CssClass="level2"/>                   
 
                 </LevelMenuItemStyles>
                 
