@@ -41,12 +41,17 @@ h2 {
 
 /* End header formatting*/
 
+#bookimg {
+    float: left;
+}
+
+
 /* Begin side bar and sitemap formatting*/
 
 #leftsidebar { 
     background-color: white;   
     float: left;   
-    width: 150px;    
+    width: 160px;    
     height: 620px;    
     border-left: 7px solid black;    
     border-right: 7px solid black;
@@ -73,7 +78,7 @@ h2 {
     float: right;    
     width: 900px;    
     height: 600px;    
-    width: 1000px;
+    width: 990px;
     border-left: 9px solid white;
 }
 
@@ -95,3 +100,19 @@ h2 {
 
 /*End footer formatting*/ 
 
+/* Begin Content sections formatting */
+
+#contact {
+    text-align: center;
+}
+
+#aboutus {
+    text-align: left;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+#p {
+    text-align: center;
+}
+/* End Content sections formatting */
