@@ -36,7 +36,16 @@
         
                           
 
-    </div>                        
+    </div>
+        
+    <div id="search">            
+            
+         Search:
+         <asp:TextBox ID="searchTB" runat="server" Width="244px"></asp:TextBox>
+&nbsp;&nbsp;
+         <asp:Button ID="searchButton" runat="server" Text="Search" />
+
+    </div>                                
             
     <div id="main">                        
                 

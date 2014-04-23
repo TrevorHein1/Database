@@ -9,5 +9,12 @@ Partial Class MasterPage
         DateLabel.Text = Format(Date.Now, "MM/dd/yyyy")
 
     End Sub
+
+    Protected Sub searchButton_Click(sender As Object, e As EventArgs) Handles searchButton.Click
+
+        'redirect textbox's value to searchResults.aspx page
+        Response.Redirect("~/searchResults.aspx?searchquery=" + Server.UrlEncode(searchTB.Text))
+
+    End Sub
 End Class
 

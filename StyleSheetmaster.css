@@ -33,7 +33,7 @@ h4 {
 
 h2 {    
     text-align: center;    
-    font-size: 24pt;    
+    font-size: 20pt;    
     padding-top: 10px;
 
 }
@@ -44,13 +44,39 @@ h2 {
 
 /* End header formatting*/
 
+/* Begin img formatting*/
+
 #bookimg {
     float: left;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 #bookimg2 {
     float: right;
+    padding-right: 15px;
+    padding-top: 10px;
 }
+
+/* End img formatting*/
+
+/* Begin search bar formatting*/
+
+#search {        
+    background: gold;        
+    color: black;                
+    padding: 5px;       
+    text-align: left;        
+    font-size: 14pt;    
+    border-right: 7px solid black;
+    border-left: 7px solid black;
+    border-bottom: 7px solid black;
+    width: 1176px;
+    height: auto;
+    clear:both;  
+}
+
+/* End search bar formatting*/
 
 
 /* Begin side bar and sitemap formatting*/
@@ -88,6 +114,7 @@ h2 {
     width: 990px;
     border-left: 9px solid white;
 }
+
 
 /* End main content formatting*/
 
@@ -130,4 +157,5 @@ h2 {
 #home {
     text-align: center;
 }
+
 /* End Content sections formatting */
