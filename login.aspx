@@ -10,7 +10,7 @@
 
         <p>
              
-        <asp:Login ID="Login1" runat="server" Height="214px" Width="430px">
+        <asp:Login ID="Login1" runat="server" Height="198px" Width="276px">
         </asp:Login>
 
         </p>

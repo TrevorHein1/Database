@@ -12,8 +12,7 @@
 
 #header {   
     background: white;   
-    padding: 10px;   
-    margin: 0 auto;   
+    padding: 10px;      
     border: 7px solid black;   
     text-align: center;
 
@@ -39,10 +38,18 @@ h2 {
 
 }
 
+#login {
+    text-align: center;
+}
+
 /* End header formatting*/
 
 #bookimg {
     float: left;
+}
+
+#bookimg2 {
+    float: right;
 }
 
 
@@ -110,6 +117,10 @@ h2 {
     text-align: left;
     padding-right: 35px;
     padding-left: 35px;
+}
+
+#check {
+    text-align: center;
 }
 
 #p {

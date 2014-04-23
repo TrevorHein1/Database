@@ -9,6 +9,20 @@
       <siteMapNode url="~/contact.aspx" title="Contact Us"  description="" />
 
       <siteMapNode url="~/materials.aspx" title="Search Materials"  description="" />
+
+      <siteMapNode url="" title="Librarian"  description="" />
+
+      <siteMapNode url="~/Librarian/checkout.aspx" title="Check Out"  description="" />
+
+      <siteMapNode url="~/Librarian/checkin.aspx" title="Check In"  description="" />
+
+      <siteMapNode url="~/Librarian/addmaterials.aspx" title="Add Material"  description="" />
+
+      <siteMapNode url="~/Librarian/editmaterials.aspx" title="Edit Material"  description="" />
+
+      <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Patron"  description="" />
+
+      <siteMapNode url="~/Librarian/editpatron.aspx" title="Edit Patron"  description="" />
       
     </siteMapNode>
 </siteMap>

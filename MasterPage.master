@@ -23,17 +23,15 @@
     <div id="container">                
     <div id="header">                
                 
-                <div id="bookimg">
-                    
-                    <img src="./Images/book.png" alt="book" title="book" height="120" width="130" />
-
-                </div> 
+                    <div id="bookimg"><img src="./Images/book.png" alt="book" title="book" height="135" width="145" /></div> 
+                    <div id="bookimg2"><img src="./Images/book.png" alt="book" title="book" height="135" width="145" /></div>
+                
          
                 <h1> Iowa City Public Library </h1>                
                 
                 <h4> Today&#39;s Date Is: <asp:Label ID="DateLabel" runat="server"></asp:Label> </h4>
                 <p> 
-                    <asp:LoginStatus ID="login" runat="server" BorderStyle="None" Height="16px" Width="59px" />
+                    <asp:LoginStatus ID="login" runat="server" BorderStyle="None" Height="16px" Width="134px" />
                 </p>
         
                           
