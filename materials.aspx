@@ -14,17 +14,13 @@
         <asp:Button ID="clearButton" runat="server" Text="Clear" Width="61px" />
     </p>
     <p> 
-        <asp:GridView ID="GridView1" runat="server" Height="195px" Width="986px" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="MaterialID" DataSourceID="SqlDataSource1" PageSize="5" AllowSorting="True">
+        <asp:GridView ID="GridView1" runat="server" Height="195px" Width="836px" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="MaterialID" DataSourceID="SqlDataSource1" PageSize="15" AllowSorting="True">
             <Columns>
                 <asp:BoundField DataField="Type" HeaderText="Type" SortExpression="Type" />
-                <asp:BoundField DataField="CallNumber" HeaderText="Call Number" SortExpression="CallNumber" />
                 <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" />
                 <asp:BoundField DataField="Author" HeaderText="Author" SortExpression="Author" />
-                <asp:BoundField DataField="Copyright" HeaderText="Copyright" SortExpression="Copyright" />
                 <asp:BoundField DataField="ISBN" HeaderText="ISBN" SortExpression="ISBN" />
-                <asp:BoundField DataField="Publisher" HeaderText="Publisher" SortExpression="Publisher" />
-                <asp:BoundField DataField="Availability" HeaderText="Availability" SortExpression="Availability" />
-                <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" />
+                <asp:HyperLinkField DataNavigateUrlFields="MaterialID" DataNavigateUrlFormatString="materialdetails.aspx?MaterialID={0}" Text="View Details" />
             </Columns>
         </asp:GridView>
     </p>
