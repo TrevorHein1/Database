@@ -10,7 +10,7 @@ Partial Class Librarian_viewpatron
         searchword = "Select * From DatabaseMembers where (ID Like '%" + searchTB3.Text.ToString() + "%') OR (FirstName Like '%" + searchTB3.Text.ToString() + "%') OR (LastName Like '%" + searchTB3.Text.ToString() + "%') OR (Birthdate Like '%" + searchTB3.Text.ToString() + "%')"
 
 
-        PatronDataSource1.SelectCommand = searchword
+        SqlDataSource1.SelectCommand = searchword
 
 
     End Sub
