@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <h2> Add Patron </h2>
+    <h2> Add Member </h2>
 
 
 </asp:Content>

@@ -22,9 +22,11 @@
 
         <siteMapNode url="~/Librarian/editmaterials.aspx" title="Edit Material"  description=""/>
 
-        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Patron"  description="" />
+        <siteMapNode url="~/Librarian/viewpatron.aspx" title="View Members"  description="" />
 
-        <siteMapNode url="~/Librarian/editpatron.aspx" title="Edit Patron"  description="" />
+        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Member"  description="" />
+
+        <siteMapNode url="~/Librarian/editpatron.aspx" title="Edit Member"  description="" />
       
       </siteMapNode>
       

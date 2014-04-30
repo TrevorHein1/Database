@@ -4,9 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-       <h2> ICPL Hours </h2>
+       
 
     <div id="hours">
+        <h2>Hours</h2>
         <p>Monday: 10:00 a.m. to 9:00 p.m.</p>
         <p>Tuesday: 10:00 a.m. to 9:00 p.m.</p>
         <p>Wednesday: 10:00 a.m. to 9:00 p.m.</p>
@@ -15,5 +16,15 @@
         <p>Saturday: 10:00 a.m. to 6:00 p.m</p>
         <p>Sunday: 12:00 p.m. to 5:00 p.m.</p>
         </div>
+    <br />
+    
+    <div id="location">
+        <h2> Location</h2>
+        <p>Address: 555 S. Gilbert St. Iowa City, IA 52240</p>
+
+        <div id="map"><img src="./Images/map.png" alt="map" title="map"/></div>
+        
+    </div>
+
 </asp:Content>
 
