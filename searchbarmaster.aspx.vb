@@ -1,5 +1,5 @@
 ﻿
-Partial Class Librarian_editpatron
+Partial Class searchbarmaster
     Inherits System.Web.UI.Page
 
 End Class

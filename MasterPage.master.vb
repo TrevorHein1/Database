@@ -13,7 +13,7 @@ Partial Class MasterPage
     Protected Sub searchButton_Click(sender As Object, e As EventArgs) Handles searchButton.Click
 
         'redirect textbox's value to searchResults.aspx page
-        Response.Redirect("~/searchResults.aspx?searchquery=" + Server.UrlEncode(searchTB.Text))
+        Response.Redirect("~/searchbarmaster.aspx?searchquery=" + Server.UrlEncode(searchTB.Text))
 
     End Sub
 End Class

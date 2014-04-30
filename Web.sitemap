@@ -18,14 +18,10 @@
 
         <siteMapNode url="~/Librarian/checkin.aspx" title="Check In"  description="" />
 
-        <siteMapNode url="~/Librarian/addmaterials.aspx" title="Add Material"  description="" />
+        <siteMapNode url="~/Librarian/update.aspx" title="Update Materials"  description="" />
 
-        <siteMapNode url="~/Librarian/editmaterials.aspx" title="Edit Material"  description=""/>
+        <siteMapNode url="~/Librarian/viewmembers.aspx" title="Update Members"  description="" />
 
-        <siteMapNode url="~/Librarian/viewpatron.aspx" title="View Members"  description="" />
-
-        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Member"  description="" />
-      
       </siteMapNode>
       
     </siteMapNode>
