@@ -7,7 +7,7 @@ Partial Class Librarian_viewpatron
         Dim searchword As String
 
 
-        searchword = "Select * From DatabaseMembers where (ID Like '%" + searchTB3.Text.ToString() + "%') OR (FirstName Like '%" + searchTB3.Text.ToString() + "%') OR (LastName Like '%" + searchTB3.Text.ToString() + "%') OR (Birthdate Like '%" + searchTB3.Text.ToString() + "%')"
+        searchword = "Select * From SLPL_UserProfile where (UserID Like '%" + searchTB3.Text.ToString() + "%') OR (FirstName Like '%" + searchTB3.Text.ToString() + "%') OR (LastName Like '%" + searchTB3.Text.ToString() + "%') OR (Birthdate Like '%" + searchTB3.Text.ToString() + "%')"
 
 
         SqlDataSource1.SelectCommand = searchword
