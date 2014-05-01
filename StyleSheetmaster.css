@@ -177,4 +177,11 @@ h2 {
     border: 5px solid gold;
 }
 
+.deletedrecordhighlight {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
 /* End Content sections formatting */
+

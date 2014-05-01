@@ -27,7 +27,7 @@
                     <div id="bookimg2"><img src="./Images/book.png" alt="book" title="book" height="135" width="145" /></div>
                 
          
-                <h1> Public Library </h1>                
+                <h1> Iowa City Public Library </h1>                
                 
                 <h4> Today&#39;s Date Is: <asp:Label ID="DateLabel" runat="server"></asp:Label> </h4>
                 <p> 
