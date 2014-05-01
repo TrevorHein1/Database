@@ -11,61 +11,99 @@
             <asp:WizardStep ID="UserProfile" runat="server" StepType="Step" Title="User Profile Settings">
 
                 <table>
-                    <tr>
-                        <asp:Label ID="lbl_FirstName" runat="server" Text="First Name:"></asp:Label> <asp:TextBox ID="tb_FirstName" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
+                <tr>
+                    <td align=right>First Name:</td> <td align=left> <asp:TextBox ID="tb_FirstName" runat="server" Columns="50"></asp:TextBox></td>
+               
+                    <td>
+                    
+                    <asp:RequiredFieldValidator ID="FirstNameRequired" runat="server" 
+                                    ControlToValidate="tb_FirstName" ErrorMessage="First name is required." 
+                                    ToolTip="First name is required.">
+                                    <span class="rfd">*** Please enter a first name.</span>
+                    </asp:RequiredFieldValidator>
+                    
+                    </td>
+               
+                </tr>
 
-                    <tr>
-                        <asp:Label ID="lbl_LastName" runat="server" Text="Last Name:"></asp:Label> <asp:TextBox ID="tb_LastName" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
 
-                    <tr>
-                        <asp:Label ID="lbl_Birthdate" runat="server" Text="Birthdate:"></asp:Label> <asp:TextBox ID="tb_Birthdate" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_Address1" runat="server" Text="Address 1:"></asp:Label> <asp:TextBox ID="tb_Address1" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_Address2" runat="server" Text="Address 2:"></asp:Label> <asp:TextBox ID="tb_Address2" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_City" runat="server" Text="City:"></asp:Label> <asp:TextBox ID="tb_City" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_State" runat="server" Text="State:"> <asp:DropDownList ID="ddl_Zip" runat="server" DataSourceID="ds_ddlZip" DataTextField="PostalCode" DataValueField="PostalCode"> </asp:DropDownList></asp:Label>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_Zip" runat="server" Text="Zip:"></asp:Label> <asp:TextBox ID="tb_Zip" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_CellPhone" runat="server" Text="Cell Phone:"></asp:Label> <asp:TextBox ID="tb_CellPhone" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                    <asp:Label ID="lbl_HomePhone" runat="server" Text="Home Phone:"></asp:Label> <asp:TextBox ID="tb_HomePhone" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                    <tr>
-                        <asp:Label ID="lbl_Email" runat="server" Text="Primary E-mail:"></asp:Label> <asp:TextBox ID="tb_Email" runat="server" Columns="50"></asp:TextBox>
-                    </tr>
-
-                </table>
+                <tr>
+                    <td align=right>Last Name:</td> <td align=left> <asp:TextBox ID="tb_LastName" runat="server" Columns="50"></asp:TextBox></td>
                 
-                    <asp:SqlDataSource runat="server"
-                        ID="ds_ddlZip"
-                        ConnectionString="<%$ ConnectionStrings:cs_materials %>"
-                        SelectCommand="SELECT [PostalCode] FROM [SLPL_PostalCode]">
-                    </asp:SqlDataSource>
+                    <td>
+                    
+                     <asp:RequiredFieldValidator ID="LastNameRequired" runat="server" 
+                                    ControlToValidate="tb_LastName" ErrorMessage="Last name is required." 
+                                    ToolTip="Last name is required.">
+                                    <span class="rfd">*** Please enter a last name.</span>
+                    </asp:RequiredFieldValidator>
+                    
+                    </td>
+                </tr>
+
+                 <tr>
+                    <td align=right>Address 1:</td> <td align=left> <asp:TextBox ID="tb_Address1" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>Address 2:</td> <td align=left> <asp:TextBox ID="tb_Address2" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+    
+                <tr>
+                    <td align=right>City:</td> <td align=left> <asp:TextBox ID="tb_City" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>State:</td> <td align=left> <asp:DropDownList ID="ddl_State" 
+                        runat="server" DataSourceID="ds_ddlState" DataTextField="PostalCode" 
+                        DataValueField="PostalCode" AppendDataBoundItems="True"> 
+                    <asp:ListItem Value="0">Select State</asp:ListItem>
+                    </asp:DropDownList> </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="rfd_StateRequired" runat="server" 
+                                    ControlToValidate="ddl_State" ErrorMessage="State is required." 
+                                    ToolTip="State is required." InitialValue="0">
+                                    <span class="rfd">*** Please enter a state.</span>
+                        </asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align=right>Zip:</td> <td align=left> <asp:TextBox ID="tb_Zip" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>Cell Phone:</td> <td align=left> <asp:TextBox ID="tb_CellPhone" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>Home Phone:</td> <td align=left> <asp:TextBox ID="tb_HomePhone" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>Primary E-mail:</td> <td align=left> <asp:TextBox ID="tb_Email" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td align=right>Birthdate:</td> <td align=left> <asp:TextBox ID="tb_Birthdate" runat="server" Columns="50"></asp:TextBox></td>
+                </tr>
+
+            </table>
+
+
+                   <asp:SqlDataSource runat="server" 
+                    ID="ds_ddlState"
+                    ConnectionString="<%$ ConnectionStrings:cs_materials %>" 
+                    SelectCommand="SELECT [PostalCode] FROM [SLPL_PostalCode]"></asp:SqlDataSource>
+
+        </asp:WizardStep>
 
 
 
-            </asp:WizardStep>
+
+
+         
 
             <asp:CompleteWizardStep ID="CompleteWizardStep1" runat="server">
                 <ContentTemplate>
