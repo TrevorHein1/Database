@@ -1,0 +1,65 @@
+﻿
+    /* Begin table formatting*/
+
+.grid-view {    background-color: white;
+                    margin: 1px 0 1px 19px;    
+                    border: solid 1px black;    
+                    border-collapse: collapse;    
+                    text-align: center;    
+                    color: black;
+}
+
+
+
+
+.grid-view .row { background-color: gold;    
+}
+
+
+
+
+.grid-view .alternate { background-color: white;    
+}    
+
+
+
+
+  .grid-view td {padding: 5px;        
+               border: solid 1px black;        
+               color: black;    
+}  
+
+
+.grid-view th {padding: 5px;        
+               color: black;        
+               border-left: solid 1px black;
+}
+
+/* Begin  Form View*/
+
+.form-view {border: 2px solid green;
+            
+}
+
+
+.form-view .row { background-color: white;    
+}
+
+
+
+
+.form-view .alternate { background-color: white;    
+}    
+.form-view td {padding: 5px;        
+               border: solid 1px black;        
+               color: black;    
+}  
+
+
+.form-view th {padding: 5px;        
+               color: black;        
+               border-left: solid 1px black;
+}
+
+
+/* End table formatting*/

@@ -4,7 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
     <h2> Material Details </h2>
+
+    <div id="materialdetails">
     <p> 
         <asp:SqlDataSource ID="MaterialDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_materials %>" SelectCommand="SELECT [MaterialID], [Type], [CallNumber], [Title], [Author], [Publisher], [Copyright], [ISBN], [Description], [Availability] FROM [DatabaseMaterial] WHERE ([MaterialID] = @MaterialID)">
             <SelectParameters>
@@ -13,7 +17,7 @@
         </asp:SqlDataSource>
     </p>
     <p> 
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="MaterialID" DataSourceID="MaterialDataSource1" Height="85px" Width="335px">
+        <asp:DetailsView ID="DetailsView1" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" AutoGenerateRows="False" DataKeyNames="MaterialID" DataSourceID="MaterialDataSource1" Height="85px" Width="335px">
             <Fields>
                 <asp:BoundField DataField="MaterialID" HeaderText="Material ID" InsertVisible="False" ReadOnly="True" SortExpression="MaterialID" />
                 <asp:BoundField DataField="Type" HeaderText="Type" SortExpression="Type" />
@@ -29,8 +33,10 @@
         </asp:DetailsView>
     </p>
     <p> 
-        <asp:LinkButton ID="LinkButton1" runat="server">Back to Search</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton1" runat="server">Back</asp:LinkButton>
     </p>
+
+        </div>
 
 
 </asp:Content>

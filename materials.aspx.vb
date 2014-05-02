@@ -11,24 +11,13 @@ Partial Class materials
 
     End Sub
 
-
-
-    Protected Sub clearButton_Click(sender As Object, e As EventArgs) Handles clearButton.Click
-
-        'Clear searchTB2 text
-        searchTB2.Text = ""
-
-    End Sub
-
     Protected Sub searchButton2_Click(sender As Object, e As EventArgs) Handles searchButton2.Click
 
         Dim searchword As String
 
+        searchword = "Select * From DB_Materials where (materialType Like '%" + searchTB2.Text.ToString() + "%') OR (materialTitle Like '%" + searchTB2.Text.ToString() + "%') OR (materialAuthor Like '%" + searchTB2.Text.ToString() + "%') OR (materialAvailability Like '%" + searchTB2.Text.ToString() + "%')"
 
-        searchword = "Select * From DatabaseMaterial where (Title Like '%" + searchTB2.Text.ToString() + "%') OR (ISBN Like '%" + searchTB2.Text.ToString() + "%') OR (Author Like '%" + searchTB2.Text.ToString() + "%') OR (Publisher Like '%" + searchTB2.Text.ToString() + "%') OR (Type Like '%" + searchTB2.Text.ToString() + "%') OR (Description Like '%" + searchTB2.Text.ToString() + "%') OR (Copyright Like '%" + searchTB2.Text.ToString() + "%')"
-
-
-        SqlDataSource1.SelectCommand = searchword
+        SearchmaterialsDataSource.SelectCommand = searchword
 
 
     End Sub

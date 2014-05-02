@@ -4,6 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
+    <h2>Add Material</h2>
+
+    <div id="addmaterial">
+
      <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_materials %>" 
         DeleteCommand="DELETE FROM [DB_Materials] WHERE [materialID] = @materialID" 
         InsertCommand="INSERT INTO [DB_Materials] ([materialType], [materialCallNumber], [materialTitle], [materialAuthor], [materialPublisher], [materialCopyright], [materialISBN], [materialDescription], [materialAvailability]) VALUES (@materialType, @materialCallNumber, @materialTitle, @materialAuthor, @materialPublisher, @materialCopyright, @materialISBN, @materialDescription, @materialAvailability)" 
@@ -46,7 +52,7 @@
     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:cs_materials %>" 
         SelectCommand="SELECT [materialAvailability] FROM [SLPL_Avail]"></asp:SqlDataSource>
     
-    <asp:FormView ID="FormView1" runat="server" DataKeyNames="materialID" DataSourceID="SqlDataSource1" DefaultMode="Insert" >
+    <asp:FormView ID="FormView1" runat="server" CssClass="form-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" DataKeyNames="materialID" DataSourceID="SqlDataSource1" DefaultMode="Insert" >
         
         <EditItemTemplate>
            
@@ -125,6 +131,8 @@
         </ItemTemplate>
     
     </asp:FormView>
+
+        </div>
 
 </asp:Content>
 

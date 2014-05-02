@@ -4,12 +4,20 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
- <p> *Material ID:
-    <asp:TextBox ID="materialIDTextBox" runat="server" Width="100px"></asp:TextBox>
+    <h2>Check In Material</h2>
+
+    <br />
+
+    <div id="check">
+
+ <p> *Material ID:&nbsp;
+    <asp:TextBox ID="materialIDTextBox" runat="server" Width="146px"></asp:TextBox>
 </p>
 <p> 
-    <asp:Button ID="returnMateraialButton" runat="server" Text="Return Material" />
+    <asp:Button ID="returnMateraialButton" runat="server" Text="Return Material" BackColor="#FFCC00" Height="35px" Width="167px" />
 </p>
+
+    </div>
 
 </asp:Content>
 

@@ -14,21 +14,21 @@
 
       <siteMapNode url="" title="Librarian"  description="" >
 
-        <siteMapNode url="~/Librarian/rentmaterial.aspx" title="Rent Material"  description="" />
+        <siteMapNode url="~/Librarian/rentmaterial.aspx" title="Check In"  description="" />
         
-        <siteMapNode url="~/Librarian/returnmaterial.aspx" title="Return Material"  description="" />
+        <siteMapNode url="~/Librarian/returnmaterial.aspx" title="Check Out"  description="" />
 
         <siteMapNode url="~/Librarian/viewallrentals.aspx" title="View Rentals"  description="" />
 
         <siteMapNode url="~/Librarian/addmaterial.aspx" title="Add Material"  description="" />
 
-        <siteMapNode url="~/Librarian/searchmaterials.aspx" title="View All Material"  description="" />
+        <siteMapNode url="~/Librarian/searchmaterials.aspx" title="View Materials"  description="" />
 
         <siteMapNode url="~/Librarian/update.aspx" title="Update Materials"  description="" />
 
-        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Patron"  description="" />
+        <siteMapNode url="~/Librarian/addpatron.aspx" title="Add Member"  description="" />
 
-        <siteMapNode url="~/Librarian/viewallmembers.aspx" title="View All Members" description="" />
+        <siteMapNode url="~/Librarian/viewallmembers.aspx" title="View Members" description="" />
 
       </siteMapNode>
       

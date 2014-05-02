@@ -85,7 +85,7 @@ h2 {
 #leftsidebar { 
     background-color: white;   
     float: left;   
-    width: 160px;    
+    width: 185px;    
     height: 620px;    
     border-left: 7px solid black;    
     border-right: 7px solid black;
@@ -112,7 +112,7 @@ h2 {
     float: right;    
     width: 900px;    
     height: 600px;    
-    width: 990px;
+    width: 965px;
     border-left: 9px solid white;
 }
 
@@ -182,6 +182,24 @@ h2 {
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
+}
 
+#rental {
+    padding-left: 80px;
+}
+
+#addmaterial {
+    text-align: center;
+    padding-left: 340px;
+}
+
+#materialdetails {
+    text-align: center;
+    padding-left: 290px;
+}
+
+#login {
+    padding-left: 330px;
+}
 /* End Content sections formatting */
 
