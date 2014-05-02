@@ -32,10 +32,12 @@
             </Fields>
         </asp:DetailsView>
     </p>
-    <p> 
-        <asp:LinkButton ID="LinkButton1" runat="server">Back</asp:LinkButton>
-    </p>
 
+            <div id="back">
+    <p> 
+        <asp:Button ID="backButton3" runat="server" Text="Back" />
+    </p>
+            </div>
         </div>
 
 

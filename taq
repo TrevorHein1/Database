@@ -1,0 +1,125 @@
+[33mcommit 0342dec99c7d58d166dea0b82353fa345e292529[m
+Author: Sam Hoeger <sam-hoeger@uiowa.edu>
+Date:   Thu May 1 20:41:56 2014 -0500
+
+    Modified formatting and search functions
+
+[33mcommit 6f0b3502069cd36a1a8b796f333368ece78a46a5[m
+Author: Sam Hoeger <sam-hoeger@uiowa.edu>
+Date:   Wed Apr 30 20:55:19 2014 -0500
+
+    Updated Css page
+
+[33mcommit 513fc3da1faa0f1f3fe0658755901ae61ab1c47d[m
+Author: Sam Hoeger <sam-hoeger@uiowa.edu>
+Date:   Wed Apr 30 20:47:09 2014 -0500
+
+    Added materials to DB
+
+[33mcommit 145777f54017f4c9edf31ba978f2f86ed7e46251[m
+Author: Sam Hoeger <sam-hoeger@uiowa.edu>
+Date:   Wed Apr 30 19:23:17 2014 -0500
+
+    Added functionality to CRUD materials, and rent/return materials
+
+[33mcommit 97ea97e2e9474d6c5cf82db00f217035e83421d8[m
+Author: Sam Hoeger <sam-hoeger@uiowa.edu>
+Date:   Wed Apr 30 17:45:08 2014 -0500
+
+    Added functionality for adding new patrons
+
+[33mcommit d734a28bb65c737a9b75c5e14cd923fab75c4345[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Wed Apr 30 15:13:50 2014 -0500
+
+    Modified a lot
+
+[33mcommit 8d6c6f4da6b04f62f3e917d709f7b15bfdb340cb[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Wed Apr 30 13:24:36 2014 -0500
+
+    Modified materials.aspx and materialdetails.aspx
+
+[33mcommit a33df634cbf15d67384e72c4bfb3b04791f1caa3[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 29 22:28:21 2014 -0500
+
+    Added tables to and search function to materials.aspx, addpatron.aspx, viewpatron.aspx, and editpatron.aspx
+
+[33mcommit e6a29a7435b817d42108f85081b407c67b3f2da0[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Thu Apr 24 15:46:39 2014 -0500
+
+    Removed App_Data files and folder
+
+[33mcommit 07f5cfe0a4c3ce59948932a5178cb04a333a4886[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Thu Apr 24 15:30:58 2014 -0500
+
+    Modified data connection
+
+[33mcommit 62850d563f0d2b6c3f2b91d5593a2b4d984372ed[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Thu Apr 24 15:29:58 2014 -0500
+
+    created connectioon to apollo
+
+[33mcommit 6693c4e933e103084c8ec9ff1b34e66d9c04343b[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Wed Apr 23 18:17:26 2014 -0500
+
+    Created hours page
+
+[33mcommit 69732e20c6ccd5ebc7474d87faad920f1b385523[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Wed Apr 23 18:08:27 2014 -0500
+
+    Created a search bar on MasterPage.master and materials.aspx
+
+[33mcommit 54c4013fefc402a5772f8578ee04ee656ea66b45[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Wed Apr 23 17:03:05 2014 -0500
+
+    Modified page security
+
+[33mcommit d4d3337aacd2c711bf058f731d7c6d86c631df28[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 22 22:30:11 2014 -0500
+
+    Created all Librarian folder pages
+
+[33mcommit 64bd44c9756bdeab6beba31a315231e9519e3357[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 22 21:55:56 2014 -0500
+
+    Added App_Data folder
+
+[33mcommit 4155e0f904a041215f9039b8c97d150f1c0eb674[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 22 21:53:31 2014 -0500
+
+    Modified Web.config
+
+[33mcommit 3afd7f722fa3fc49e2a85a0e8f20dbf39f4f74d3[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 22 21:52:55 2014 -0500
+
+     Modified Masterpage, contact, aboutus, and web.config
+
+[33mcommit 18b78ebc6197aee1528e2a1f8d3a5ffcef48d749[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 22 21:51:25 2014 -0500
+
+    created login page and Images and Librarian folder
+
+[33mcommit bfd7069f2858df9d37fcc34ba2a42790ea1f9f43[m
+Author: Trevor Hein <trevor-hein@uiowa.edu>
+Date:   Tue Apr 15 11:21:27 2014 -0500
+
+    Created about us, contact, and materials.aspx
+
+[33mcommit b81a6f4f16566fe934fd5451ecb4e4dc2f17d760[m
+Author: TrevorHein1 <Trevor-Hein@uiowa.edu>
+Date:   Mon Apr 14 20:11:05 2014 -0500
+
+    Initial Commit

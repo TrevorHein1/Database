@@ -8,7 +8,7 @@
 
     <h2> Search Materials </h2>
 
-    <p> Enter Search:
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Search:
         <asp:TextBox ID="searchTB4" runat="server" Width="245px"></asp:TextBox>
        &nbsp;
         <asp:Button ID="searchButton3" runat="server" Text="Search" />

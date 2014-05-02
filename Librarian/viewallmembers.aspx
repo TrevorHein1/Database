@@ -4,8 +4,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
+
     <h2> ICPL Members </h2>
-    <p> Search Members:
+
+    <div id="allmembers">
+
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Search Members:
         <asp:TextBox ID="searchTB3" runat="server" Width="189px"></asp:TextBox>
 &nbsp;&nbsp;
         <asp:Button ID="searchButton3" runat="server" Text="Search" Width="102px" />
@@ -13,24 +19,20 @@
   
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_materials %>" SelectCommand="SELECT [FirstName], [LastName], [City], [State], [Zip], [CellPhone], [HomePhone], [Email], [BirthDate], [Address1], [Address2], [UserID] FROM [SLPL_UserProfile]"></asp:SqlDataSource>
 
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="UserID" DataSourceID="SqlDataSource1">
+    <asp:GridView ID="GridView1" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="UserID" DataSourceID="SqlDataSource1" Width="679px">
+<AlternatingRowStyle CssClass="alternate"></AlternatingRowStyle>
         <Columns>
             <asp:BoundField DataField="FirstName" HeaderText="FirstName" SortExpression="FirstName" />
             <asp:BoundField DataField="LastName" HeaderText="LastName" SortExpression="LastName" />
-            <asp:BoundField DataField="City" HeaderText="City" SortExpression="City" />
-            <asp:BoundField DataField="State" HeaderText="State" SortExpression="State" />
-            <asp:BoundField DataField="Zip" HeaderText="Zip" SortExpression="Zip" />
-            <asp:BoundField DataField="CellPhone" HeaderText="CellPhone" SortExpression="CellPhone" />
-            <asp:BoundField DataField="HomePhone" HeaderText="HomePhone" SortExpression="HomePhone" />
             <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
             <asp:BoundField DataField="BirthDate" HeaderText="BirthDate" SortExpression="BirthDate" />
-            <asp:BoundField DataField="Address1" HeaderText="Address1" SortExpression="Address1" />
-            <asp:BoundField DataField="Address2" HeaderText="Address2" SortExpression="Address2" />
             <asp:HyperLinkField DataNavigateUrlFields="UserID" DataNavigateUrlFormatString="Memberdetails.aspx?UserID={0}" Text="Select" />
         </Columns>
+
+<RowStyle CssClass="row"></RowStyle>
     </asp:GridView>
 
-
+        </div>
 
 </asp:Content>
 

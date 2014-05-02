@@ -2,9 +2,8 @@
 Partial Class materialdetails
     Inherits System.Web.UI.Page
 
+    Protected Sub backButton3_Click(sender As Object, e As EventArgs) Handles backButton3.Click
 
-
-    Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
 
         Response.Redirect("materials.aspx")
 

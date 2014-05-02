@@ -4,7 +4,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <asp:FormView ID="FormView1" runat="server" DataKeyNames="UserID" DataSourceID="SqlDataSource1">
+
+    <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
+    <h2>Member Details</h2>
+
+    <div id="memberdetails">
+
+    <asp:FormView ID="FormView1" runat="server" CssClass="form-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" DataKeyNames="UserID" DataSourceID="SqlDataSource1" Width="227px">
         
         <EditItemTemplate>
             FirstName:
@@ -115,15 +122,15 @@
             <asp:Button ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" OnClick="DeleteButton_Click" OnClientClick="return confirm ('Are you sure you want to delete this customer record?')" />
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="materialID" DataSourceID="SqlDataSource3">
+            <asp:GridView ID="GridView" runat="server" CssClass="grid-view1" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" AutoGenerateColumns="False" DataKeyNames="materialID" DataSourceID="SqlDataSource3">
                 <Columns>
-                    <asp:BoundField DataField="materialID" HeaderText="materialID" InsertVisible="False" ReadOnly="True" SortExpression="materialID" />
-                    <asp:BoundField DataField="materialType" HeaderText="materialType" SortExpression="materialType" />
-                    <asp:BoundField DataField="materialCallNumber" HeaderText="materialCallNumber" SortExpression="materialCallNumber" />
-                    <asp:BoundField DataField="materialTitle" HeaderText="materialTitle" SortExpression="materialTitle" />
-                    <asp:BoundField DataField="materialAuthor" HeaderText="materialAuthor" SortExpression="materialAuthor" />
-                    <asp:BoundField DataField="materialISBN" HeaderText="materialISBN" SortExpression="materialISBN" />
-                    <asp:BoundField DataField="DateDueBack" HeaderText="DateDueBack" SortExpression="DateDueBack" />
+                    <asp:BoundField DataField="materialID" HeaderText="&nbsp;ID&nbsp;" InsertVisible="False" ReadOnly="True" SortExpression="materialID" />
+                    <asp:BoundField DataField="materialType" HeaderText="&nbsp;Type&nbsp;" SortExpression="materialType" />
+                    <asp:BoundField DataField="materialCallNumber" HeaderText="&nbsp;Call Number&nbsp;" SortExpression="materialCallNumber" />
+                    <asp:BoundField DataField="materialTitle" HeaderText="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" SortExpression="materialTitle" />
+                    <asp:BoundField DataField="materialAuthor" HeaderText="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" SortExpression="materialAuthor" />
+                    <asp:BoundField DataField="materialISBN" HeaderText="&nbsp;ISBN&nbsp;" SortExpression="materialISBN" />
+                    <asp:BoundField DataField="DateDueBack" HeaderText="Date Due Back" SortExpression="DateDueBack" />
                 </Columns>
             </asp:GridView>
             <br />
@@ -178,5 +185,12 @@
 
     </asp:SqlDataSource>
 
+        <div id="backbutton">
+
+        <asp:Button ID="backBT2" runat="server" Text="Back" Width="73px" />
+        </div>
+        
+    </div>
+        
 </asp:Content>
 

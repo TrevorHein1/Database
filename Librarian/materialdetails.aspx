@@ -4,7 +4,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
     <h2> Material Details </h2>
+
+
+<div id="materialdetails1">
+
         <asp:SqlDataSource ID="materialdetailsDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:cs_materials %>" 
             SelectCommand="SELECT [materialID], [materialType], [materialCallNumber], [materialTitle], [materialAuthor], [materialPublisher], [materialCopyright], [materialISBN], [materialDescription], [materialAvailability] FROM [DB_Materials] WHERE ([materialID] = @materialID)" 
             DeleteCommand="DELETE FROM [DB_Materials] WHERE [materialID] = @materialID" 
@@ -61,7 +67,7 @@
     
     <br />
     
-    <asp:FormView ID="FormView1" runat="server" DataKeyNames="materialID" DataSourceID="materialdetailsDataSource">
+    <asp:FormView ID="FormView1" runat="server" CssClass="form-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" DataKeyNames="materialID" DataSourceID="materialdetailsDataSource" Width="337px">
         <EditItemTemplate>
             
             <table>
@@ -206,6 +212,17 @@
     </asp:FormView>
     
     <asp:Label ID="DeletedMaterialLabel" runat="server" Text=""></asp:Label>
+
+    </div>
+
+    <div id="backbutton">
+
+
+    <br />
+    <asp:Button ID="backBT1" runat="server" Text="Back" Width="87px" />
+    <br />
+
+    </div>
 
 </asp:Content>
 

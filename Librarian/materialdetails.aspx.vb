@@ -23,4 +23,9 @@ Partial Class Librarian_materialdetails
 
     End Sub
 
+    Protected Sub backBT1_Click(sender As Object, e As EventArgs) Handles backBT1.Click
+
+        Response.Redirect("searchmaterials.aspx")
+
+    End Sub
 End Class

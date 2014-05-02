@@ -4,6 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <h2>Add Member</h2>
+
+    <div id="addmember">
+
  <asp:CreateUserWizard ID="CreateUserWizard1" runat="server">
         <WizardSteps>
             <asp:CreateUserWizardStep ID="CreateUserWizardStep1" runat="server">
@@ -121,8 +125,13 @@
         </WizardSteps>
     </asp:CreateUserWizard>
 
+        </div>
 
+    <br />
 
+    <div id="back">
+    <asp:Button ID="backBT3" runat="server" Text="Back" />
+        </div>
 </asp:Content>
 
 

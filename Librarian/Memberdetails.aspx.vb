@@ -36,4 +36,9 @@ Partial Class Librarian_Memberdetails
 
     End Sub
 
+    Protected Sub backBT2_Click(sender As Object, e As EventArgs) Handles backBT2.Click
+
+        Response.Redirect("viewallmembers.aspx")
+
+    End Sub
 End Class
