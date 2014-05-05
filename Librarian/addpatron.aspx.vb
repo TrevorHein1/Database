@@ -58,4 +58,9 @@ Partial Class Librarian_addpatron
 
     End Sub
 
+    Protected Sub backBT3_Click(sender As Object, e As EventArgs) Handles backBT3.Click
+
+        Response.Redirect("viewallmembers.aspx")
+
+    End Sub
 End Class
