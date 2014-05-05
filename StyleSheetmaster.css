@@ -229,3 +229,8 @@ h5 {
 }
 /* End Content sections formatting */
 
+.twitter-timeline {
+    height: 333px;
+    padding-top: 5pt;
+}
+
