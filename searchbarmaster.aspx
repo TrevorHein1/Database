@@ -4,6 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+     <link rel="stylesheet" type="text/css" href="./StyleSheettables.css" />
+
     <h2>Search Results:</h2>
 
     <div id="search1">
@@ -25,7 +27,7 @@
 
          </asp:SqlDataSource>
 
-    <asp:GridView ID="GridView1" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" AutoGenerateColumns="False" DataKeyNames="materialID" DataSourceID="SqlDataSource1" Height="150px" PageSize="8" Width="743px">
+    <asp:GridView ID="GridView1" runat="server" CssClass="grid-view" AlternatingRowStyle-CssClass="alternate" RowStyle-CssClass="row" AutoGenerateColumns="False" DataKeyNames="materialID" DataSourceID="SqlDataSource1" Height="150px" PageSize="5" Width="743px" AllowPaging="True">
         <Columns>
             <asp:BoundField DataField="materialID" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="materialID" />
             <asp:BoundField DataField="materialType" HeaderText="Type" SortExpression="materialType" />

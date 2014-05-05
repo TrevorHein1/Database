@@ -19,6 +19,18 @@
         well as from you own electronic devices.
 
     </p>
+
+    <br />
+
+                        <div id="aboutimg">
+                            
+                            <img src="./Images/aboutimg.jpg" alt="aboutus" title="aboutus" style="height: 239px; width: 488px" />
+
+                        </div>
+
+
 </div>
+
+
 </asp:Content>
 
