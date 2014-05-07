@@ -242,4 +242,13 @@ h5 {
 
     text-align: center;
 }
-    
+
+.level1 {
+    color: blue;
+    font-weight: normal;
+}
+
+.level2 {
+    color: blue;
+    font-weight: normal;
+}
