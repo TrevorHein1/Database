@@ -5,7 +5,7 @@
          padding: 20px;    
          margin: 0 auto;    
          width: 1200px;
-         border: 7px solid black;
+         border: 2px solid black;
          height:0 auto;
 }
                                
@@ -14,7 +14,7 @@
 #header {   
     background: white;   
     padding: 10px;      
-    border: 7px solid black;   
+    border: 2px solid black;   
     text-align: center;
 
 }
@@ -76,10 +76,10 @@ h5 {
     padding: 5px;       
     text-align: left;        
     font-size: 14pt;    
-    border-right: 7px solid black;
-    border-left: 7px solid black;
-    border-bottom: 7px solid black;
-    width: 1176px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1186px;
     height: auto;
     clear:both;  
 }
@@ -94,8 +94,8 @@ h5 {
     float: left;   
     width: 185px;    
     height: 640px;    
-    border-left: 7px solid black;    
-    border-right: 7px solid black;
+    border-left: 2px solid black;    
+    border-right: 2px solid black;
 
 }
 
@@ -115,11 +115,11 @@ h5 {
     background: white;    
     padding: 10px;    
     margin: 0 auto;    
-    border-right: 7px solid black;    
+    border-right: 2px solid black;    
     float: right;    
     width: 900px;    
     height: 620px;    
-    width: 965px;
+    width: 980px;
     border-left: 9px solid white;
 }
 
@@ -134,8 +134,8 @@ h5 {
     padding: 5px;       
     text-align: center;        
     font-size: 16pt;    
-    border: 7px solid black;
-    width: 1176px;
+    border: 2px solid black;
+    width: 1186px;
     height: auto;
     clear:both;  
 }
@@ -231,7 +231,7 @@ h5 {
 
 .twitter-timeline {
     height: 333px;
-    padding-top: 5pt;
+    padding-top: 2pt;
 }
 
 #aboutimg {

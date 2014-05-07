@@ -14,9 +14,9 @@
 
       <siteMapNode url="" title="Librarian"  description="" >
 
-        <siteMapNode url="~/Librarian/rentmaterial.aspx" title="Check In"  description="" />
+        <siteMapNode url="~/Librarian/rentmaterial.aspx" title="Check Out"  description="" />
         
-        <siteMapNode url="~/Librarian/returnmaterial.aspx" title="Check Out"  description="" />
+        <siteMapNode url="~/Librarian/returnmaterial.aspx" title="Check In"  description="" />
 
         <siteMapNode url="~/Librarian/viewallrentals.aspx" title="View Rentals"  description="" />
 
